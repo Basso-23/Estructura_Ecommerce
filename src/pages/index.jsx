@@ -156,35 +156,144 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
 
       {/*//SECTION: CATEGORIES // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
       <section className="categories-container pageSize">
+        {/*//* Categoría 1 */}
         <button>
           <div className="categories-images bg-category-1"></div>
-          <h1>Paint Brush</h1>
+          <h1>Categoría</h1>
         </button>
+        {/*//* Categoría 2 */}
         <button>
           <div className="categories-images bg-category-2"></div>
-          <h1>Paint Brush</h1>
+          <h1>Categoría</h1>
         </button>
+        {/*//* Categoría 3 */}
         <button>
           <div className="categories-images bg-category-3"></div>
-          <h1>Paint Brush</h1>
+          <h1>Categoría</h1>
         </button>
+        {/*//* Categoría 4 */}
         <button>
           <div className="categories-images bg-category-4"></div>
-          <h1>Paint Brush</h1>
+          <h1>Categoría</h1>
         </button>
+        {/*//* Categoría 5 */}
         <button>
           <div className="categories-images bg-category-5"></div>
-          <h1>Paint Brush</h1>
+          <h1>Categoría</h1>
         </button>
+        {/*//* Categoría 6 */}
         <button>
           <div className="categories-images bg-category-6"></div>
-          <h1>Paint Brush</h1>
+          <h1>Categoría</h1>
         </button>
+        {/*//* Categoría 7 */}
         <button>
           <div className="categories-images bg-category-7"></div>
-          <h1>Paint Brush</h1>
+          <h1>Categoría</h1>
         </button>
       </section>
+
+      {/*//SECTION: DEAL OF THE DAY // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
+      <section className="deal-container pageSize">
+        {/*//* Title */}
+        <div className="deal-title-container">
+          <div className="  deal-title">Mejores Ofertas del Día</div>
+          <div className=" deal-title-gray"></div>
+        </div>
+
+        {/*//* Product card */}
+        <div className=" deal-product-container">
+          <div className="deal-product-left">
+            {/*//* Image and discount */}
+            <div className="w-full min-h-[350px]">
+              <div className="bg-[url('https://i.imgur.com/tLfAlmS.png')] bg-no-repeat bg-center bg-cover w-full h-full relative">
+                <div className=" absolute top-4 left-4  bg-lime-500 text-white font-medium px-[12px] py-[3px] text-sm shadow-md rounded-sm">
+                  -22%
+                </div>
+              </div>
+            </div>
+            {/*//* Description product */}
+            <div className="w-full flex flex-col justify-center px-6">
+              {/*//*name*/}
+              <div className="text-sm font-medium mt-5 md:mt-0">
+                Drill Screwdriver Brandix ALX7054 200
+              </div>
+              {/*//*rating*/}
+              <div className=" flex gap-[1px] ">
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+              </div>
+              {/*//*price*/}
+              <div className="font-semibold tracking-wide text-[#CC1414]">
+                $150.00{" "}
+                <span className="  line-through text-gray-400 font-normal">
+                  $190.00
+                </span>
+              </div>
+              {/*//*specs*/}
+              <ul className="text-gray-500 text-sm gap-1 flex flex-col mt-6">
+                <li>• Bass and Stereo Sound.</li>
+                <li>• Display with 3088 x 1440 pixels resolution.</li>
+                <li>• Memory, Storage &amp; SIM: 12GB RAM</li>
+              </ul>
+              {/*//*Add to cart*/}
+              <button className="mt-6 bg-[#222222] text-white font-medium py-3 text-center text-sm rounded-full md:mb-0 mb-5">
+                Añadir al Carrito
+              </button>
+            </div>
+          </div>
+
+          <div className="w-full md:min-w-[650px] h-[350px] rounded-md border bg-white md:grid hidden grid-cols-2">
+            <div className="w-full ">
+              <div className="bg-[url('https://i.imgur.com/tLfAlmS.png')] bg-no-repeat bg-center bg-cover w-full h-full relative">
+                <div className=" absolute top-4 left-4  bg-lime-500 text-white font-medium px-[12px] py-[3px] text-sm shadow-md rounded-sm">
+                  -22%
+                </div>
+              </div>
+            </div>
+            <div className="w-full flex flex-col justify-center px-6">
+              <div className="text-sm font-medium ">
+                Drill Screwdriver Brandix ALX7054 200
+              </div>
+              <div className=" flex gap-[1px] ">
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+              </div>
+              <div className="font-semibold tracking-wide text-[#CC1414]">
+                $150.00{" "}
+                <span className="  line-through text-gray-400 font-normal">
+                  $190.00
+                </span>
+              </div>
+              <ul className="text-gray-500 text-sm gap-1 flex flex-col mt-6">
+                <li>• Bass and Stereo Sound.</li>
+                <li>• Display with 3088 x 1440 pixels resolution.</li>
+                <li>• Memory, Storage &amp; SIM: 12GB RAM</li>
+              </ul>
+
+              <button className="mt-6 bg-[#222222] text-white font-medium py-3 text-center text-sm rounded-full">
+                Añadir al Carrito
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="w-full flex justify-between mt-2">
+          <div className="bg-gray-300 w-10 aspect-square flex justify-center items-center rotate-90 rounded-sm">
+            <div className="chevron ml-1 text-gray-400"></div>
+          </div>
+          <div className="bg-[#fdbe01] w-10 aspect-square flex justify-center items-center -rotate-90 rounded-sm">
+            <div className="chevron ml-1"></div>
+          </div>
+        </div>
+      </section>
+
+      <div className=" min-h-screen"></div>
     </main>
   );
 };
