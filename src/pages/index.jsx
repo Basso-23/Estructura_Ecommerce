@@ -2,29 +2,29 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
   return (
     <main>
       {/*//SECTION: NAVBAR // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
-      <section className="navbar-container">
+      <section class="navbar-container">
         {/*//* Top navbar */}
-        <div className=" navbar-top pageSize ">
+        <div class=" navbar-top pageSize ">
           {/*//* Logo */}
-          <div className="logo-container">
-            <div className="logo bg-logo"></div>
+          <div class="logo-container">
+            <div class="logo bg-logo"></div>
           </div>
 
           {/*//* Search input */}
-          <form className="search-container ">
+          <form class="search-container ">
             <input
-              className="search-input"
+              class="search-input"
               type="text"
               placeholder="Buscar productos ..."
               required
             />
-            <button className=" search-button">Buscar</button>
+            <button class=" search-button">Buscar</button>
           </form>
 
           {/*//* Right side container */}
-          <div className="nav-right-container">
+          <div class="nav-right-container">
             {/*//* MOBILE: Menu*/}
-            <div className=" menu-container">
+            <div class=" menu-container">
               <button>
                 <svg
                   stroke="currentColor"
@@ -45,15 +45,15 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
               </button>
             </div>
             {/*//* MOBILE: Logo*/}
-            <div className=" logo-container-mobile">
-              <div className="logo bg-logo"></div>
+            <div class=" logo-container-mobile">
+              <div class="logo bg-logo"></div>
             </div>
             {/*//* Actions buttons */}
-            <div className="action-buttons-container">
+            <div class="action-buttons-container">
               {/*//* User icon */}
-              <button className="action-buttons ">
-                <div className=" action-buttons-title ">
-                  <h1 className=" gray">Ingresa</h1>
+              <button class="action-buttons ">
+                <div class=" action-buttons-title ">
+                  <h1 class=" gray">Ingresa</h1>
                   <strong>Tu Cuenta</strong>
                 </div>
                 <svg
@@ -73,9 +73,9 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
                 </svg>
               </button>
               {/*//* Heart icon */}
-              <button className="action-buttons ">
-                <div className=" action-buttons-title ">
-                  <h1 className=" gray">Favoritos</h1>
+              <button class="action-buttons ">
+                <div class=" action-buttons-title ">
+                  <h1 class=" gray">Favoritos</h1>
                   <strong>Mi Lista</strong>
                 </div>
                 <svg
@@ -91,9 +91,9 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
                 </svg>
               </button>
               {/*//* Cart icon */}
-              <button className="action-button-cart">
-                <div className=" action-buttons-title ">
-                  <h1 className=" gray">Tu Carrito</h1>
+              <button class="action-button-cart">
+                <div class=" action-buttons-title ">
+                  <h1 class=" gray">Tu Carrito</h1>
                   <strong>$0.00</strong>
                 </div>
                 <svg
@@ -120,101 +120,101 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
           </div>
         </div>
         {/*//* Bottom navbar */}
-        <div className="navbar-bottom">
-          <ul className="lista pageSize">
+        <div class="navbar-bottom">
+          <ul class="lista pageSize">
             <button>
-              <h1>DEPARTAMENTO</h1> <div className="chevron"></div>
+              <h1>DEPARTAMENTO</h1> <div class="chevron"></div>
             </button>
             <button>
-              <h1>CATEGORÍA</h1> <div className="chevron"></div>
+              <h1>CATEGORÍA</h1> <div class="chevron"></div>
             </button>
             <button>
-              <h1 className="texto">SUB-CATEGORÍA</h1>
-              <div className="chevron"></div>
+              <h1 class="texto">SUB-CATEGORÍA</h1>
+              <div class="chevron"></div>
             </button>
             <button>
-              <h1>MARCA</h1> <div className="chevron"></div>
+              <h1>MARCA</h1> <div class="chevron"></div>
             </button>
             <button>
-              <h1>MODELO</h1> <div className="chevron"></div>
+              <h1>MODELO</h1> <div class="chevron"></div>
             </button>
           </ul>
         </div>
       </section>
       {/*//SECTION: HERO // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
-      <section className=" hero-container pageSize ">
+      <section class=" hero-container pageSize ">
         {/*//* Imagen grande */}
-        <div className=" hero-image1 bg-image1 "></div>
-        <div className="hero-image2-3-container">
+        <div class=" hero-image1 bg-image1 "></div>
+        <div class="hero-image2-3-container">
           {/*//* Imagen pequeña 1 */}
-          <div className="hero-image2-3 bg-image2"></div>
+          <div class="hero-image2-3 bg-image2"></div>
           {/*//* Imagen pequeña 2 */}
-          <div className="hero-image2-3 bg-image3"></div>
+          <div class="hero-image2-3 bg-image3"></div>
         </div>
       </section>
       {/*//SECTION: CATEGORIES // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
-      <section className="categories-container pageSize">
+      <section class="categories-container pageSize">
         {/*//* Categoría 1 */}
         <button>
-          <div className="categories-images bg-category-1"></div>
+          <div class="categories-images bg-category-1"></div>
           <h1>Categoría</h1>
         </button>
         {/*//* Categoría 2 */}
         <button>
-          <div className="categories-images bg-category-2"></div>
+          <div class="categories-images bg-category-2"></div>
           <h1>Categoría</h1>
         </button>
         {/*//* Categoría 3 */}
         <button>
-          <div className="categories-images bg-category-3"></div>
+          <div class="categories-images bg-category-3"></div>
           <h1>Categoría</h1>
         </button>
         {/*//* Categoría 4 */}
         <button>
-          <div className="categories-images bg-category-4"></div>
+          <div class="categories-images bg-category-4"></div>
           <h1>Categoría</h1>
         </button>
         {/*//* Categoría 5 */}
         <button>
-          <div className="categories-images bg-category-5"></div>
+          <div class="categories-images bg-category-5"></div>
           <h1>Categoría</h1>
         </button>
         {/*//* Categoría 6 */}
         <button>
-          <div className="categories-images bg-category-6"></div>
+          <div class="categories-images bg-category-6"></div>
           <h1>Categoría</h1>
         </button>
         {/*//* Categoría 7 */}
         <button>
-          <div className="categories-images bg-category-7"></div>
+          <div class="categories-images bg-category-7"></div>
           <h1>Categoría</h1>
         </button>
       </section>
       {/*//SECTION: DEAL OF THE DAY // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
-      <section className="deal-container pageSize">
+      <section class="deal-container pageSize">
         {/*//* Title */}
-        <div className="deal-title-container">
-          <div className="  deal-title">Mejores Ofertas del Día</div>
-          <div className=" deal-title-gray"></div>
+        <div class="deal-title-container">
+          <div class="  deal-title">Mejores Ofertas del Día</div>
+          <div class=" deal-title-gray"></div>
         </div>
 
         {/*//* Product card */}
-        <div className=" deal-product-container">
-          <div className="deal-product-card ">
+        <div class=" deal-product-container">
+          <div class="deal-product-card ">
             {/*//* Image and discount */}
-            <div className="deal-image-container">
-              <button className="bg-deal-image1 deal-image">
-                <div className="discount">-22%</div>
+            <div class="deal-image-container">
+              <button class="bg-deal-image1 deal-image">
+                <div class="discount">-22%</div>
               </button>
             </div>
             {/*//* Description product */}
-            <div className="deal-description">
+            <div class="deal-description">
               {/*//*name*/}
-              <div className="deal-description-name">
+              <div class="deal-description-name">
                 Drill Screwdriver Brandix ALX7054 200
               </div>
               {/*//*rating*/}
-              <div className="deal-description-rating">
+              <div class="deal-description-rating">
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
@@ -222,38 +222,35 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
                 <span class="star-icon full">☆</span>
               </div>
               {/*//*price*/}
-              <div className="deal-description-price-container ">
-                $150.00{" "}
-                <span className="deal-description-price-old">$190.00</span>
+              <div class="deal-description-price-container ">
+                $150.00 <span class="deal-description-price-old">$190.00</span>
               </div>
               {/*//*specs*/}
-              <ul className="deal-description-specs ">
+              <ul class="deal-description-specs ">
                 <li>• Bass and Stereo Sound.</li>
                 <li>• Display with 3088 x 1440 pixels resolution.</li>
                 <li>• Memory, Storage &amp; SIM: 12GB RAM</li>
               </ul>
               {/*//*Add to cart*/}
-              <button className="deal-description-cart">
-                Añadir al Carrito
-              </button>
+              <button class="deal-description-cart">Añadir al Carrito</button>
             </div>
           </div>
 
-          <div className="deal-product-card">
+          <div class="deal-product-card">
             {/*//* Image and discount */}
-            <div className="deal-image-container">
-              <button className="bg-deal-image2 deal-image">
-                <div className="discount">-22%</div>
+            <div class="deal-image-container">
+              <button class="bg-deal-image2 deal-image">
+                <div class="discount">-22%</div>
               </button>
             </div>
             {/*//* Description product */}
-            <div className="deal-description">
+            <div class="deal-description">
               {/*//*name*/}
-              <div className="deal-description-name">
+              <div class="deal-description-name">
                 Drill Screwdriver Brandix ALX7054 200
               </div>
               {/*//*rating*/}
-              <div className="deal-description-rating">
+              <div class="deal-description-rating">
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
@@ -261,59 +258,56 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
                 <span class="star-icon full">☆</span>
               </div>
               {/*//*price*/}
-              <div className="deal-description-price-container ">
-                $150.00{" "}
-                <span className="deal-description-price-old">$190.00</span>
+              <div class="deal-description-price-container ">
+                $150.00 <span class="deal-description-price-old">$190.00</span>
               </div>
               {/*//*specs*/}
-              <ul className="deal-description-specs ">
+              <ul class="deal-description-specs ">
                 <li>• Bass and Stereo Sound.</li>
                 <li>• Display with 3088 x 1440 pixels resolution.</li>
                 <li>• Memory, Storage &amp; SIM: 12GB RAM</li>
               </ul>
               {/*//*Add to cart*/}
-              <button className="deal-description-cart">
-                Añadir al Carrito
-              </button>
+              <button class="deal-description-cart">Añadir al Carrito</button>
             </div>
           </div>
         </div>
         {/*//*Pagination*/}
-        <div className="pagination-container">
+        <div class="pagination-container">
           {/*//*Prev page*/}
-          <button className="pagination-unavailable-button">
-            <div className="chevron pagination-unavailable"></div>
+          <button class="pagination-unavailable-button">
+            <div class="chevron pagination-unavailable"></div>
           </button>
           {/*//*Next page*/}
-          <button className="pagination-available-button">
-            <div className="chevron pagination-available"></div>
+          <button class="pagination-available-button">
+            <div class="chevron pagination-available"></div>
           </button>
         </div>
       </section>
       {/*//SECTION: PRODUCTOS MAS VENDIDOS // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
-      <section className="deal-container pageSize">
+      <section class="deal-container pageSize">
         {/*//* Title */}
-        <div className="deal-title-container">
-          <div className="  deal-title">Productos Más Vendidos</div>
-          <div className=" deal-title-gray"></div>
+        <div class="deal-title-container">
+          <div class="  deal-title">Productos Más Vendidos</div>
+          <div class=" deal-title-gray"></div>
         </div>
         {/*//* Carousel container */}
-        <div className=" carousel-container">
+        <div class=" carousel-container">
           {/*//* Product card */}
-          <div className=" carousel-product-card">
+          <div class=" carousel-product-card">
             {/*//* Image and discount */}
-            <div className="carousel-product-image-container ">
-              <button className="carousel-bg-image1 deal-image">
-                <div className="discount">-22%</div>
+            <div class="carousel-product-image-container ">
+              <button class="carousel-bg-image1 deal-image">
+                <div class="discount">-22%</div>
               </button>
             </div>
-            <div className="carousel-description">
+            <div class="carousel-description">
               {/*//*name*/}
-              <div className="deal-description-name">
+              <div class="deal-description-name">
                 Drill Screwdriver Brandix ALX7054 200
               </div>
               {/*//*rating*/}
-              <div className="deal-description-rating">
+              <div class="deal-description-rating">
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
@@ -321,31 +315,28 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
                 <span class="star-icon full">☆</span>
               </div>
               {/*//*price*/}
-              <div className="deal-description-price-container ">
-                $150.00{" "}
-                <span className="deal-description-price-old">$190.00</span>
+              <div class="deal-description-price-container ">
+                $150.00 <span class="deal-description-price-old">$190.00</span>
               </div>
               {/*//*Add to cart*/}
-              <button className="deal-description-cart">
-                Añadir al Carrito
-              </button>
+              <button class="deal-description-cart">Añadir al Carrito</button>
             </div>
           </div>
           {/*//* Product card */}
-          <div className=" carousel-product-card">
+          <div class=" carousel-product-card">
             {/*//* Image and discount */}
-            <div className="carousel-product-image-container ">
-              <button className="carousel-bg-image2 deal-image">
-                <div className="discount">-22%</div>
+            <div class="carousel-product-image-container ">
+              <button class="carousel-bg-image2 deal-image">
+                <div class="discount">-22%</div>
               </button>
             </div>
-            <div className="carousel-description">
+            <div class="carousel-description">
               {/*//*name*/}
-              <div className="deal-description-name">
+              <div class="deal-description-name">
                 Drill Screwdriver Brandix ALX7054 200
               </div>
               {/*//*rating*/}
-              <div className="deal-description-rating">
+              <div class="deal-description-rating">
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
@@ -353,31 +344,28 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
                 <span class="star-icon full">☆</span>
               </div>
               {/*//*price*/}
-              <div className="deal-description-price-container ">
-                $150.00{" "}
-                <span className="deal-description-price-old">$190.00</span>
+              <div class="deal-description-price-container ">
+                $150.00 <span class="deal-description-price-old">$190.00</span>
               </div>
               {/*//*Add to cart*/}
-              <button className="deal-description-cart">
-                Añadir al Carrito
-              </button>
+              <button class="deal-description-cart">Añadir al Carrito</button>
             </div>
           </div>
           {/*//* Product card */}
-          <div className=" carousel-product-card">
+          <div class=" carousel-product-card">
             {/*//* Image and discount */}
-            <div className="carousel-product-image-container ">
-              <button className="carousel-bg-image3 deal-image">
-                <div className="discount">-22%</div>
+            <div class="carousel-product-image-container ">
+              <button class="carousel-bg-image3 deal-image">
+                <div class="discount">-22%</div>
               </button>
             </div>
-            <div className="carousel-description">
+            <div class="carousel-description">
               {/*//*name*/}
-              <div className="deal-description-name">
+              <div class="deal-description-name">
                 Drill Screwdriver Brandix ALX7054 200
               </div>
               {/*//*rating*/}
-              <div className="deal-description-rating">
+              <div class="deal-description-rating">
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
@@ -385,31 +373,28 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
                 <span class="star-icon full">☆</span>
               </div>
               {/*//*price*/}
-              <div className="deal-description-price-container ">
-                $150.00{" "}
-                <span className="deal-description-price-old">$190.00</span>
+              <div class="deal-description-price-container ">
+                $150.00 <span class="deal-description-price-old">$190.00</span>
               </div>
               {/*//*Add to cart*/}
-              <button className="deal-description-cart">
-                Añadir al Carrito
-              </button>
+              <button class="deal-description-cart">Añadir al Carrito</button>
             </div>
           </div>
           {/*//* Product card */}
-          <div className=" carousel-product-card">
+          <div class=" carousel-product-card">
             {/*//* Image and discount */}
-            <div className="carousel-product-image-container ">
-              <button className="carousel-bg-image4 deal-image">
-                <div className="discount">-22%</div>
+            <div class="carousel-product-image-container ">
+              <button class="carousel-bg-image4 deal-image">
+                <div class="discount">-22%</div>
               </button>
             </div>
-            <div className="carousel-description">
+            <div class="carousel-description">
               {/*//*name*/}
-              <div className="deal-description-name">
+              <div class="deal-description-name">
                 Drill Screwdriver Brandix ALX7054 200
               </div>
               {/*//*rating*/}
-              <div className="deal-description-rating">
+              <div class="deal-description-rating">
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
@@ -417,31 +402,28 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
                 <span class="star-icon full">☆</span>
               </div>
               {/*//*price*/}
-              <div className="deal-description-price-container ">
-                $150.00{" "}
-                <span className="deal-description-price-old">$190.00</span>
+              <div class="deal-description-price-container ">
+                $150.00 <span class="deal-description-price-old">$190.00</span>
               </div>
               {/*//*Add to cart*/}
-              <button className="deal-description-cart">
-                Añadir al Carrito
-              </button>
+              <button class="deal-description-cart">Añadir al Carrito</button>
             </div>
           </div>
           {/*//* Product card */}
-          <div className=" carousel-product-card">
+          <div class=" carousel-product-card">
             {/*//* Image and discount */}
-            <div className="carousel-product-image-container ">
-              <button className="carousel-bg-image5 deal-image">
-                <div className="discount">-22%</div>
+            <div class="carousel-product-image-container ">
+              <button class="carousel-bg-image5 deal-image">
+                <div class="discount">-22%</div>
               </button>
             </div>
-            <div className="carousel-description">
+            <div class="carousel-description">
               {/*//*name*/}
-              <div className="deal-description-name">
+              <div class="deal-description-name">
                 Drill Screwdriver Brandix ALX7054 200
               </div>
               {/*//*rating*/}
-              <div className="deal-description-rating">
+              <div class="deal-description-rating">
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
@@ -449,61 +431,58 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
                 <span class="star-icon full">☆</span>
               </div>
               {/*//*price*/}
-              <div className="deal-description-price-container ">
-                $150.00{" "}
-                <span className="deal-description-price-old">$190.00</span>
+              <div class="deal-description-price-container ">
+                $150.00 <span class="deal-description-price-old">$190.00</span>
               </div>
               {/*//*Add to cart*/}
-              <button className="deal-description-cart">
-                Añadir al Carrito
-              </button>
+              <button class="deal-description-cart">Añadir al Carrito</button>
             </div>
           </div>
         </div>
         {/*//*Pagination*/}
-        <div className="pagination-container">
+        <div class="pagination-container">
           {/*//*Prev page*/}
-          <button className="pagination-unavailable-button">
-            <div className="chevron pagination-unavailable"></div>
+          <button class="pagination-unavailable-button">
+            <div class="chevron pagination-unavailable"></div>
           </button>
           {/*//*Next page*/}
-          <button className="pagination-available-button">
-            <div className="chevron pagination-available"></div>
+          <button class="pagination-available-button">
+            <div class="chevron pagination-available"></div>
           </button>
         </div>
       </section>
       {/*//SECTION: BANNERS // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
-      <section className="deal-container pageSize">
-        <div className=" banners-container">
-          <div className="banner bg-banner1 banner-image"></div>
-          <div className="banner bg-banner2 banner-image"></div>
-          <div className="banner bg-banner3 banner-image"></div>
+      <section class="deal-container pageSize">
+        <div class=" banners-container">
+          <div class="banner bg-banner1 banner-image"></div>
+          <div class="banner bg-banner2 banner-image"></div>
+          <div class="banner bg-banner3 banner-image"></div>
         </div>
       </section>
       {/*//SECTION: NUEVOS PRODUCTOS // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
-      <section className="deal-container pageSize">
+      <section class="deal-container pageSize">
         {/*//* Title */}
-        <div className="deal-title-container">
-          <div className="  deal-title">Nuevos Productos</div>
-          <div className=" deal-title-gray"></div>
+        <div class="deal-title-container">
+          <div class="  deal-title">Nuevos Productos</div>
+          <div class=" deal-title-gray"></div>
         </div>
         {/*//* Carousel container */}
-        <div className=" carousel-container">
+        <div class=" carousel-container">
           {/*//* Product card */}
-          <div className=" carousel-product-card">
+          <div class=" carousel-product-card">
             {/*//* Image and discount */}
-            <div className="carousel-product-image-container ">
-              <button className="carousel-bg-image1 deal-image">
-                <div className="discount">-22%</div>
+            <div class="carousel-product-image-container ">
+              <button class="carousel-bg-image1 deal-image">
+                <div class="discount">-22%</div>
               </button>
             </div>
-            <div className="carousel-description">
+            <div class="carousel-description">
               {/*//*name*/}
-              <div className="deal-description-name">
+              <div class="deal-description-name">
                 Drill Screwdriver Brandix ALX7054 200
               </div>
               {/*//*rating*/}
-              <div className="deal-description-rating">
+              <div class="deal-description-rating">
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
@@ -511,31 +490,28 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
                 <span class="star-icon full">☆</span>
               </div>
               {/*//*price*/}
-              <div className="deal-description-price-container ">
-                $150.00{" "}
-                <span className="deal-description-price-old">$190.00</span>
+              <div class="deal-description-price-container ">
+                $150.00 <span class="deal-description-price-old">$190.00</span>
               </div>
               {/*//*Add to cart*/}
-              <button className="deal-description-cart">
-                Añadir al Carrito
-              </button>
+              <button class="deal-description-cart">Añadir al Carrito</button>
             </div>
           </div>
           {/*//* Product card */}
-          <div className=" carousel-product-card">
+          <div class=" carousel-product-card">
             {/*//* Image and discount */}
-            <div className="carousel-product-image-container ">
-              <button className="carousel-bg-image2 deal-image">
-                <div className="discount">-22%</div>
+            <div class="carousel-product-image-container ">
+              <button class="carousel-bg-image2 deal-image">
+                <div class="discount">-22%</div>
               </button>
             </div>
-            <div className="carousel-description">
+            <div class="carousel-description">
               {/*//*name*/}
-              <div className="deal-description-name">
+              <div class="deal-description-name">
                 Drill Screwdriver Brandix ALX7054 200
               </div>
               {/*//*rating*/}
-              <div className="deal-description-rating">
+              <div class="deal-description-rating">
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
@@ -543,31 +519,28 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
                 <span class="star-icon full">☆</span>
               </div>
               {/*//*price*/}
-              <div className="deal-description-price-container ">
-                $150.00{" "}
-                <span className="deal-description-price-old">$190.00</span>
+              <div class="deal-description-price-container ">
+                $150.00 <span class="deal-description-price-old">$190.00</span>
               </div>
               {/*//*Add to cart*/}
-              <button className="deal-description-cart">
-                Añadir al Carrito
-              </button>
+              <button class="deal-description-cart">Añadir al Carrito</button>
             </div>
           </div>
           {/*//* Product card */}
-          <div className=" carousel-product-card">
+          <div class=" carousel-product-card">
             {/*//* Image and discount */}
-            <div className="carousel-product-image-container ">
-              <button className="carousel-bg-image3 deal-image">
-                <div className="discount">-22%</div>
+            <div class="carousel-product-image-container ">
+              <button class="carousel-bg-image3 deal-image">
+                <div class="discount">-22%</div>
               </button>
             </div>
-            <div className="carousel-description">
+            <div class="carousel-description">
               {/*//*name*/}
-              <div className="deal-description-name">
+              <div class="deal-description-name">
                 Drill Screwdriver Brandix ALX7054 200
               </div>
               {/*//*rating*/}
-              <div className="deal-description-rating">
+              <div class="deal-description-rating">
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
@@ -575,31 +548,28 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
                 <span class="star-icon full">☆</span>
               </div>
               {/*//*price*/}
-              <div className="deal-description-price-container ">
-                $150.00{" "}
-                <span className="deal-description-price-old">$190.00</span>
+              <div class="deal-description-price-container ">
+                $150.00 <span class="deal-description-price-old">$190.00</span>
               </div>
               {/*//*Add to cart*/}
-              <button className="deal-description-cart">
-                Añadir al Carrito
-              </button>
+              <button class="deal-description-cart">Añadir al Carrito</button>
             </div>
           </div>
           {/*//* Product card */}
-          <div className=" carousel-product-card">
+          <div class=" carousel-product-card">
             {/*//* Image and discount */}
-            <div className="carousel-product-image-container ">
-              <button className="carousel-bg-image4 deal-image">
-                <div className="discount">-22%</div>
+            <div class="carousel-product-image-container ">
+              <button class="carousel-bg-image4 deal-image">
+                <div class="discount">-22%</div>
               </button>
             </div>
-            <div className="carousel-description">
+            <div class="carousel-description">
               {/*//*name*/}
-              <div className="deal-description-name">
+              <div class="deal-description-name">
                 Drill Screwdriver Brandix ALX7054 200
               </div>
               {/*//*rating*/}
-              <div className="deal-description-rating">
+              <div class="deal-description-rating">
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
@@ -607,31 +577,28 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
                 <span class="star-icon full">☆</span>
               </div>
               {/*//*price*/}
-              <div className="deal-description-price-container ">
-                $150.00{" "}
-                <span className="deal-description-price-old">$190.00</span>
+              <div class="deal-description-price-container ">
+                $150.00 <span class="deal-description-price-old">$190.00</span>
               </div>
               {/*//*Add to cart*/}
-              <button className="deal-description-cart">
-                Añadir al Carrito
-              </button>
+              <button class="deal-description-cart">Añadir al Carrito</button>
             </div>
           </div>
           {/*//* Product card */}
-          <div className=" carousel-product-card">
+          <div class=" carousel-product-card">
             {/*//* Image and discount */}
-            <div className="carousel-product-image-container ">
-              <button className="carousel-bg-image5 deal-image">
-                <div className="discount">-22%</div>
+            <div class="carousel-product-image-container ">
+              <button class="carousel-bg-image5 deal-image">
+                <div class="discount">-22%</div>
               </button>
             </div>
-            <div className="carousel-description">
+            <div class="carousel-description">
               {/*//*name*/}
-              <div className="deal-description-name">
+              <div class="deal-description-name">
                 Drill Screwdriver Brandix ALX7054 200
               </div>
               {/*//*rating*/}
-              <div className="deal-description-rating">
+              <div class="deal-description-rating">
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
@@ -639,26 +606,23 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
                 <span class="star-icon full">☆</span>
               </div>
               {/*//*price*/}
-              <div className="deal-description-price-container ">
-                $150.00{" "}
-                <span className="deal-description-price-old">$190.00</span>
+              <div class="deal-description-price-container ">
+                $150.00 <span class="deal-description-price-old">$190.00</span>
               </div>
               {/*//*Add to cart*/}
-              <button className="deal-description-cart">
-                Añadir al Carrito
-              </button>
+              <button class="deal-description-cart">Añadir al Carrito</button>
             </div>
           </div>
         </div>
         {/*//*Pagination*/}
-        <div className="pagination-container">
+        <div class="pagination-container">
           {/*//*Prev page*/}
-          <button className="pagination-unavailable-button">
-            <div className="chevron pagination-unavailable"></div>
+          <button class="pagination-unavailable-button">
+            <div class="chevron pagination-unavailable"></div>
           </button>
           {/*//*Next page*/}
-          <button className="pagination-available-button">
-            <div className="chevron pagination-available"></div>
+          <button class="pagination-available-button">
+            <div class="chevron pagination-available"></div>
           </button>
         </div>
       </section>
@@ -669,7 +633,7 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
           <div class="row">
             <div class="col-lg-6 offset-lg-3">
               <div class="contact-content text-center">
-                <button className="logo-footer" href="#">
+                <button class="logo-footer" href="#">
                   LOGO
                 </button>
                 <p>
@@ -686,27 +650,27 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
                   <ul>
                     <li>
                       <a class="hover-target" href="">
-                        <div className="bg-social1 deal-image"></div>
+                        <div class="bg-social1 deal-image"></div>
                       </a>
                     </li>
                     <li>
                       <a class="hover-target" href="">
-                        <div className="bg-social2 deal-image"></div>
+                        <div class="bg-social2 deal-image"></div>
                       </a>
                     </li>
                     <li>
                       <a class="hover-target" href="">
-                        <div className="bg-social3 deal-image"></div>
+                        <div class="bg-social3 deal-image"></div>
                       </a>
                     </li>
                     <li>
                       <a class="hover-target" href="">
-                        <div className="bg-social4 deal-image"></div>
+                        <div class="bg-social4 deal-image"></div>
                       </a>
                     </li>
                     <li>
                       <a class="hover-target" href="">
-                        <div className="bg-social5 deal-image"></div>
+                        <div class="bg-social5 deal-image"></div>
                       </a>
                     </li>
                   </ul>
