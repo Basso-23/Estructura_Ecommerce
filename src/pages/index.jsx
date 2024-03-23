@@ -153,6 +153,38 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
           <div className="hero-image2-3 bg-image3"></div>
         </div>
       </section>
+
+      {/*//SECTION: CATEGORIES // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
+      <section className="categories-container pageSize">
+        <button>
+          <div className="categories-images bg-category-1"></div>
+          <h1>Paint Brush</h1>
+        </button>
+        <button>
+          <div className="categories-images bg-category-2"></div>
+          <h1>Paint Brush</h1>
+        </button>
+        <button>
+          <div className="categories-images bg-category-3"></div>
+          <h1>Paint Brush</h1>
+        </button>
+        <button>
+          <div className="categories-images bg-category-4"></div>
+          <h1>Paint Brush</h1>
+        </button>
+        <button>
+          <div className="categories-images bg-category-5"></div>
+          <h1>Paint Brush</h1>
+        </button>
+        <button>
+          <div className="categories-images bg-category-6"></div>
+          <h1>Paint Brush</h1>
+        </button>
+        <button>
+          <div className="categories-images bg-category-7"></div>
+          <h1>Paint Brush</h1>
+        </button>
+      </section>
     </main>
   );
 };
