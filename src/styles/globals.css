@@ -627,3 +627,85 @@ button {
     flex-direction: row;
   }
 }
+
+.contact-area {
+  border-bottom: 1px solid #353c46;
+  margin-top: 5rem;
+}
+
+.contact-content p {
+  font-size: 15px;
+  margin: 15px 0 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 550px;
+}
+
+.contact-content p::after {
+  background: #353c46;
+  bottom: -20px;
+  content: "";
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%);
+  width: 50%;
+}
+
+.contact-content h6 {
+  color: #8b9199;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.contact-content span {
+  color: #353c47;
+  margin: 0 10px;
+}
+
+.contact-social {
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contact-social > ul {
+  display: inline-flex;
+}
+
+.contact-social ul li a {
+  border: 1px solid #8b9199;
+  color: #8b9199;
+  display: inline-block;
+  height: 40px;
+  margin: 0 10px;
+  padding-top: 0px;
+  transition: all 0.4s ease 0s;
+  width: 40px;
+}
+
+.contact-social ul li a:hover {
+  border: 1px solid #fab702;
+  color: #fab702;
+}
+
+.contact-content img {
+  max-width: 210px;
+}
+
+footer {
+  background: #1b1b1b;
+  color: #868c96;
+}
+
+footer p {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.logo-footer {
+  margin-top: 2.5rem;
+  font-size: 1.875rem /* 30px */;
+  line-height: 2.25rem /* 36px */;
+}

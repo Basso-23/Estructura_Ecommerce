@@ -141,7 +141,6 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
           </ul>
         </div>
       </section>
-
       {/*//SECTION: HERO // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
       <section className=" hero-container pageSize ">
         {/*//* Imagen grande */}
@@ -153,7 +152,6 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
           <div className="hero-image2-3 bg-image3"></div>
         </div>
       </section>
-
       {/*//SECTION: CATEGORIES // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
       <section className="categories-container pageSize">
         {/*//* Categoría 1 */}
@@ -192,7 +190,6 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
           <h1>Categoría</h1>
         </button>
       </section>
-
       {/*//SECTION: DEAL OF THE DAY // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
       <section className="deal-container pageSize">
         {/*//* Title */}
@@ -293,7 +290,6 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
           </button>
         </div>
       </section>
-
       {/*//SECTION: PRODUCTOS MAS VENDIDOS // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
       <section className="deal-container pageSize">
         {/*//* Title */}
@@ -476,7 +472,6 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
           </button>
         </div>
       </section>
-
       {/*//SECTION: BANNERS // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
       <section className="deal-container pageSize">
         <div className=" banners-container">
@@ -485,7 +480,6 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
           <div className="banner bg-banner3 deal-image"></div>
         </div>
       </section>
-
       {/*//SECTION: NUEVOS PRODUCTOS // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
       <section className="deal-container pageSize">
         {/*//* Title */}
@@ -668,9 +662,63 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
           </button>
         </div>
       </section>
-
       {/*//SECTION: FOOTER // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
-      <section className=" w-full bg-[#222222] h-[350px] mt-20"></section>
+
+      <footer class="contact-area" id="contact">
+        <div class="container pageSize">
+          <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+              <div class="contact-content text-center">
+                <button className="logo-footer" href="#">
+                  LOGO
+                </button>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Quis ipsum{" "}
+                </p>
+                <div class="hr"></div>
+                <h6>1120 Lorem ipsum dolor sit amet, KC 179050, Chandigarh.</h6>
+                <h6>
+                  +01 2345 6789 12<span>|</span>+01 2345 6789 12
+                </h6>
+                <div class="contact-social">
+                  <ul>
+                    <li>
+                      <a class="hover-target" href="">
+                        <div className="carousel-bg-image1 deal-image"></div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="hover-target" href="">
+                        <div className="carousel-bg-image1 deal-image"></div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="hover-target" href="">
+                        <div className="carousel-bg-image1 deal-image"></div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="hover-target" href="">
+                        <div className="carousel-bg-image1 deal-image"></div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="hover-target" href="">
+                        <div className="carousel-bg-image1 deal-image"></div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <footer>
+        <p>Copyright &copy; 2019 LOGO All Rights Reserved.</p>
+      </footer>
     </main>
   );
 };
