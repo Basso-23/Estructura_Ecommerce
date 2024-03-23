@@ -219,7 +219,8 @@ button {
 }
 
 .bg-image1 {
-  background-image: url("https://i.imgur.com/tLfAlmS.png");
+  background-image: url("https://gizmos.qodeinteractive.com/wp-content/uploads/2022/09/home-4-banner-2.jpg");
+  border-width: 1px;
 }
 
 .hero-image2-3-container {
@@ -237,11 +238,13 @@ button {
 }
 
 .bg-image2 {
-  background-image: url("https://i.imgur.com/tLfAlmS.png");
+  background-image: url("https://gizmos.qodeinteractive.com/wp-content/uploads/2022/09/home-7-banner-1.jpg");
+  border-width: 1px;
 }
 
 .bg-image3 {
-  background-image: url("https://i.imgur.com/tLfAlmS.png");
+  background-image: url("https://gizmos.qodeinteractive.com/wp-content/uploads/2022/09/home-7-banner-3.jpg");
+  border-width: 1px;
 }
 
 .categories-container {
@@ -278,31 +281,31 @@ button {
 }
 
 .bg-category-1 {
-  background-image: url("https://i.imgur.com/tLfAlmS.png");
+  background-image: url("https://electrolyte1-store.myshopify.com/cdn/shop/products/1_80239b0d-412a-408f-a464-592ba1830136_575X670_crop_center.jpg?v=1632566696");
 }
 
 .bg-category-2 {
-  background-image: url("https://i.imgur.com/tLfAlmS.png");
+  background-image: url("https://electrolyte1-store.myshopify.com/cdn/shop/products/1_e5a6d0fa-a6bc-4efd-a475-5649ea088b0c_575X670_crop_center.jpg?v=1648107096");
 }
 
 .bg-category-3 {
-  background-image: url("https://i.imgur.com/tLfAlmS.png");
+  background-image: url("https://electrolyte1-store.myshopify.com/cdn/shop/products/1_49030dc8-19db-4a85-8e72-50b4cc4808cf_575X670_crop_center.jpg?v=1648107105");
 }
 
 .bg-category-4 {
-  background-image: url("https://i.imgur.com/tLfAlmS.png");
+  background-image: url("https://electrolyte1-store.myshopify.com/cdn/shop/products/1_ac2f0820-2b51-4be8-a5d9-38b4ac65dadf_575X670_crop_center.jpg?v=1632566689");
 }
 
 .bg-category-5 {
-  background-image: url("https://i.imgur.com/tLfAlmS.png");
+  background-image: url("https://electrolyte1-store.myshopify.com/cdn/shop/products/1_575X670_crop_center.jpg?v=1648107101");
 }
 
 .bg-category-6 {
-  background-image: url("https://i.imgur.com/tLfAlmS.png");
+  background-image: url("https://electrolyte1-store.myshopify.com/cdn/shop/products/2_cc2a4cc4-7944-463e-bafc-fd068c46c76e_575X670_crop_center.jpg?v=1648107108");
 }
 
 .bg-category-7 {
-  background-image: url("https://i.imgur.com/tLfAlmS.png");
+  background-image: url("https://electrolyte1-store.myshopify.com/cdn/shop/products/1_ff3fe529-dfcc-4a77-8b3f-ca4ba152be36_575X670_crop_center.jpg?v=1648107075");
 }
 
 .deal-container {
@@ -364,11 +367,11 @@ button {
 }
 
 .bg-deal-image1 {
-  background-image: url("https://i.imgur.com/tLfAlmS.png");
+  background-image: url("https://gizmos.qodeinteractive.com/wp-content/uploads/2022/09/shop-img-65.jpg");
 }
 
 .bg-deal-image2 {
-  background-image: url("https://i.imgur.com/tLfAlmS.png");
+  background-image: url("https://gizmos.qodeinteractive.com/wp-content/uploads/2022/08/shop-img-6.jpg");
 }
 
 .discount {
@@ -519,19 +522,19 @@ button {
 }
 
 .carousel-bg-image1 {
-  background-image: url("https://i.imgur.com/tLfAlmS.png");
+  background-image: url("https://gizmos.qodeinteractive.com/wp-content/uploads/2022/09/shop-img-26.jpg");
 }
 .carousel-bg-image2 {
-  background-image: url("https://i.imgur.com/tLfAlmS.png");
+  background-image: url("https://gizmos.qodeinteractive.com/wp-content/uploads/2022/08/shop-img-10.jpg");
 }
 .carousel-bg-image3 {
-  background-image: url("https://i.imgur.com/tLfAlmS.png");
+  background-image: url("https://gizmos.qodeinteractive.com/wp-content/uploads/2022/08/shop-img-9.jpg");
 }
 .carousel-bg-image4 {
-  background-image: url("https://i.imgur.com/tLfAlmS.png");
+  background-image: url("https://gizmos.qodeinteractive.com/wp-content/uploads/2022/08/shop-img-8.jpg");
 }
 .carousel-bg-image5 {
-  background-image: url("https://i.imgur.com/tLfAlmS.png");
+  background-image: url("https://gizmos.qodeinteractive.com/wp-content/uploads/2022/09/shop-img-30.jpg");
 }
 
 .banners-container {
@@ -547,13 +550,38 @@ button {
   height: 225px;
 }
 
+.banner-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .bg-banner1 {
-  background-image: url("https://i.imgur.com/tLfAlmS.png");
+  background-image: url("https://gizmos.qodeinteractive.com/wp-content/uploads/2022/09/home-7-banner-2.jpg");
 }
 .bg-banner2 {
-  background-image: url("https://i.imgur.com/tLfAlmS.png");
+  background-image: url("https://gizmos.qodeinteractive.com/wp-content/uploads/2022/09/home-7-banner-4-new.jpg");
 }
 .bg-banner3 {
+  background-image: url("https://gizmos.qodeinteractive.com/wp-content/uploads/2022/09/home-7-banner-2.jpg");
+}
+
+.bg-social1 {
+  background-image: url("https://i.imgur.com/tLfAlmS.png");
+}
+.bg-social2 {
+  background-image: url("https://i.imgur.com/tLfAlmS.png");
+}
+.bg-social3 {
+  background-image: url("https://i.imgur.com/tLfAlmS.png");
+}
+.bg-social4 {
+  background-image: url("https://i.imgur.com/tLfAlmS.png");
+}
+.bg-social5 {
   background-image: url("https://i.imgur.com/tLfAlmS.png");
 }
 

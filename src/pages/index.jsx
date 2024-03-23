@@ -475,9 +475,9 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
       {/*//SECTION: BANNERS // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
       <section className="deal-container pageSize">
         <div className=" banners-container">
-          <div className="banner bg-banner1 deal-image"></div>
-          <div className="banner bg-banner2 deal-image"></div>
-          <div className="banner bg-banner3 deal-image"></div>
+          <div className="banner bg-banner1 banner-image"></div>
+          <div className="banner bg-banner2 banner-image"></div>
+          <div className="banner bg-banner3 banner-image"></div>
         </div>
       </section>
       {/*//SECTION: NUEVOS PRODUCTOS // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
@@ -686,27 +686,27 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
                   <ul>
                     <li>
                       <a class="hover-target" href="">
-                        <div className="carousel-bg-image1 deal-image"></div>
+                        <div className="bg-social1 deal-image"></div>
                       </a>
                     </li>
                     <li>
                       <a class="hover-target" href="">
-                        <div className="carousel-bg-image1 deal-image"></div>
+                        <div className="bg-social2 deal-image"></div>
                       </a>
                     </li>
                     <li>
                       <a class="hover-target" href="">
-                        <div className="carousel-bg-image1 deal-image"></div>
+                        <div className="bg-social3 deal-image"></div>
                       </a>
                     </li>
                     <li>
                       <a class="hover-target" href="">
-                        <div className="carousel-bg-image1 deal-image"></div>
+                        <div className="bg-social4 deal-image"></div>
                       </a>
                     </li>
                     <li>
                       <a class="hover-target" href="">
-                        <div className="carousel-bg-image1 deal-image"></div>
+                        <div className="bg-social5 deal-image"></div>
                       </a>
                     </li>
                   </ul>
