@@ -203,23 +203,21 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
 
         {/*//* Product card */}
         <div className=" deal-product-container">
-          <div className="deal-product-left">
+          <div className="deal-product-card ">
             {/*//* Image and discount */}
-            <div className="w-full min-h-[350px]">
-              <div className="bg-[url('https://i.imgur.com/tLfAlmS.png')] bg-no-repeat bg-center bg-cover w-full h-full relative">
-                <div className=" absolute top-4 left-4  bg-lime-500 text-white font-medium px-[12px] py-[3px] text-sm shadow-md rounded-sm">
-                  -22%
-                </div>
+            <div className="deal-image-container">
+              <div className="bg-deal-image1 deal-image">
+                <div className="discount">-22%</div>
               </div>
             </div>
             {/*//* Description product */}
-            <div className="w-full flex flex-col justify-center px-6">
+            <div className="deal-description">
               {/*//*name*/}
-              <div className="text-sm font-medium mt-5 md:mt-0">
+              <div className="deal-description-name">
                 Drill Screwdriver Brandix ALX7054 200
               </div>
               {/*//*rating*/}
-              <div className=" flex gap-[1px] ">
+              <div className="deal-description-rating">
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
@@ -227,68 +225,71 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
                 <span class="star-icon full">☆</span>
               </div>
               {/*//*price*/}
-              <div className="font-semibold tracking-wide text-[#CC1414]">
+              <div className="deal-description-price-container ">
                 $150.00{" "}
-                <span className="  line-through text-gray-400 font-normal">
-                  $190.00
-                </span>
+                <span className="deal-description-price-old">$190.00</span>
               </div>
               {/*//*specs*/}
-              <ul className="text-gray-500 text-sm gap-1 flex flex-col mt-6">
+              <ul className="deal-description-specs ">
                 <li>• Bass and Stereo Sound.</li>
                 <li>• Display with 3088 x 1440 pixels resolution.</li>
                 <li>• Memory, Storage &amp; SIM: 12GB RAM</li>
               </ul>
               {/*//*Add to cart*/}
-              <button className="mt-6 bg-[#222222] text-white font-medium py-3 text-center text-sm rounded-full md:mb-0 mb-5">
+              <button className="deal-description-cart">
                 Añadir al Carrito
               </button>
             </div>
           </div>
 
-          <div className="w-full md:min-w-[650px] h-[350px] rounded-md border bg-white md:grid hidden grid-cols-2">
-            <div className="w-full ">
-              <div className="bg-[url('https://i.imgur.com/tLfAlmS.png')] bg-no-repeat bg-center bg-cover w-full h-full relative">
-                <div className=" absolute top-4 left-4  bg-lime-500 text-white font-medium px-[12px] py-[3px] text-sm shadow-md rounded-sm">
-                  -22%
-                </div>
+          <div className="deal-product-card">
+            {/*//* Image and discount */}
+            <div className="deal-image-container">
+              <div className="bg-deal-image2 deal-image">
+                <div className="discount">-22%</div>
               </div>
             </div>
-            <div className="w-full flex flex-col justify-center px-6">
-              <div className="text-sm font-medium ">
+            {/*//* Description product */}
+            <div className="deal-description">
+              {/*//*name*/}
+              <div className="deal-description-name">
                 Drill Screwdriver Brandix ALX7054 200
               </div>
-              <div className=" flex gap-[1px] ">
+              {/*//*rating*/}
+              <div className="deal-description-rating">
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
                 <span class="star-icon full">☆</span>
               </div>
-              <div className="font-semibold tracking-wide text-[#CC1414]">
+              {/*//*price*/}
+              <div className="deal-description-price-container ">
                 $150.00{" "}
-                <span className="  line-through text-gray-400 font-normal">
-                  $190.00
-                </span>
+                <span className="deal-description-price-old">$190.00</span>
               </div>
-              <ul className="text-gray-500 text-sm gap-1 flex flex-col mt-6">
+              {/*//*specs*/}
+              <ul className="deal-description-specs ">
                 <li>• Bass and Stereo Sound.</li>
                 <li>• Display with 3088 x 1440 pixels resolution.</li>
                 <li>• Memory, Storage &amp; SIM: 12GB RAM</li>
               </ul>
-
-              <button className="mt-6 bg-[#222222] text-white font-medium py-3 text-center text-sm rounded-full">
+              {/*//*Add to cart*/}
+              <button className="deal-description-cart">
                 Añadir al Carrito
               </button>
             </div>
           </div>
         </div>
-        <div className="w-full flex justify-between mt-2">
-          <div className="bg-gray-300 w-10 aspect-square flex justify-center items-center rotate-90 rounded-sm">
-            <div className="chevron ml-1 text-gray-400"></div>
+        {/*//*Pagination*/}
+        <div className="pagination-container">
+          {/*//*Prev page*/}
+          <div className="pagination-unavailable-button">
+            <div className="chevron pagination-unavailable"></div>
           </div>
-          <div className="bg-[#fdbe01] w-10 aspect-square flex justify-center items-center -rotate-90 rounded-sm">
-            <div className="chevron ml-1"></div>
+          {/*//*Next page*/}
+          <div className="pagination-available-button">
+            <div className="chevron pagination-available"></div>
           </div>
         </div>
       </section>
