@@ -484,6 +484,56 @@ button {
   margin-left: 0.25rem;
 }
 
+.carousel-product-image-container {
+  width: 100%;
+  min-height: 200px;
+}
+
+.carousel-container {
+  display: flex;
+  overflow-x: auto;
+  margin-top: 2.5rem;
+  gap: 2.5rem;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.carousel-product-card {
+  display: flex;
+  padding-bottom: 1.25rem;
+  flex-direction: column;
+  border-radius: 0.75rem;
+  border-width: 1px;
+  width: 100%;
+  background-color: #ffffff;
+  max-width: 230px;
+  min-width: 230px;
+}
+
+.carousel-description {
+  display: flex;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-top: 1rem;
+  flex-direction: column;
+}
+
+.carousel-bg-image1 {
+  background-image: url("https://i.imgur.com/tLfAlmS.png");
+}
+.carousel-bg-image2 {
+  background-image: url("https://i.imgur.com/tLfAlmS.png");
+}
+.carousel-bg-image3 {
+  background-image: url("https://i.imgur.com/tLfAlmS.png");
+}
+.carousel-bg-image4 {
+  background-image: url("https://i.imgur.com/tLfAlmS.png");
+}
+.carousel-bg-image5 {
+  background-image: url("https://i.imgur.com/tLfAlmS.png");
+}
+
 /* XL ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 @media (min-width: 1280px) {
   .navbar-container {
