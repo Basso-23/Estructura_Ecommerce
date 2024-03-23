@@ -186,6 +186,48 @@ button {
   align-items: center;
 }
 
+.hero-container {
+  display: flex;
+  margin-top: 1.25rem;
+  gap: 2.5rem;
+  justify-content: flex-end;
+}
+
+.hero-image1 {
+  aspect-ratio: 16 / 9;
+  flex: 1 1 0%;
+  border-radius: 0.5rem;
+  background-position: center;
+  background-size: cover;
+  max-height: 500px;
+}
+
+.bg-image1 {
+  background-image: url("https://i.imgur.com/tLfAlmS.png");
+}
+
+.hero-image2-3-container {
+  display: none;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 2.5rem;
+}
+
+.hero-image2-3 {
+  border-radius: 0.5rem;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+}
+
+.bg-image2 {
+  background-image: url("https://i.imgur.com/tLfAlmS.png");
+}
+
+.bg-image3 {
+  background-image: url("https://i.imgur.com/tLfAlmS.png");
+}
+
 /* XL ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 @media (min-width: 1280px) {
   .navbar-container {
@@ -216,5 +258,11 @@ button {
   .action-buttons-title {
     display: flex;
     flex-direction: column;
+  }
+  .hero-container {
+    margin-top: 2.5rem;
+  }
+  .hero-image2-3-container {
+    display: grid;
   }
 }

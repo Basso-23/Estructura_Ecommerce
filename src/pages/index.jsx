@@ -1,7 +1,7 @@
 const App = ({ cart, setCart, render, setRender, userState }) => {
   return (
     <main>
-      {/*//SECTION: Navbar conatiner // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
+      {/*//SECTION: NAVBAR // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
       <section className="navbar-container">
         {/*//* Top navbar */}
         <div className=" navbar-top pageSize ">
@@ -139,6 +139,18 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
               <h1>MODELO</h1> <div className="chevron"></div>
             </button>
           </ul>
+        </div>
+      </section>
+
+      {/*//SECTION: HERO // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
+      <section className=" hero-container pageSize ">
+        {/*//* Imagen grande */}
+        <div className=" hero-image1 bg-image1 "></div>
+        <div className="hero-image2-3-container">
+          {/*//* Imagen pequeña 1 */}
+          <div className="hero-image2-3 bg-image2"></div>
+          {/*//* Imagen pequeña 2 */}
+          <div className="hero-image2-3 bg-image3"></div>
         </div>
       </section>
     </main>
