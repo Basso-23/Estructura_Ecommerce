@@ -477,7 +477,200 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
         </div>
       </section>
 
-      <div className=" min-h-screen"></div>
+      {/*//SECTION: BANNERS // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
+      <section className="deal-container pageSize">
+        <div className=" banners-container">
+          <div className="banner bg-banner1 deal-image"></div>
+          <div className="banner bg-banner2 deal-image"></div>
+          <div className="banner bg-banner3 deal-image"></div>
+        </div>
+      </section>
+
+      {/*//SECTION: NUEVOS PRODUCTOS // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
+      <section className="deal-container pageSize">
+        {/*//* Title */}
+        <div className="deal-title-container">
+          <div className="  deal-title">Nuevos Productos</div>
+          <div className=" deal-title-gray"></div>
+        </div>
+        {/*//* Carousel container */}
+        <div className=" carousel-container">
+          {/*//* Product card */}
+          <div className=" carousel-product-card">
+            {/*//* Image and discount */}
+            <div className="carousel-product-image-container ">
+              <button className="carousel-bg-image1 deal-image">
+                <div className="discount">-22%</div>
+              </button>
+            </div>
+            <div className="carousel-description">
+              {/*//*name*/}
+              <div className="deal-description-name">
+                Drill Screwdriver Brandix ALX7054 200
+              </div>
+              {/*//*rating*/}
+              <div className="deal-description-rating">
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+              </div>
+              {/*//*price*/}
+              <div className="deal-description-price-container ">
+                $150.00{" "}
+                <span className="deal-description-price-old">$190.00</span>
+              </div>
+              {/*//*Add to cart*/}
+              <button className="deal-description-cart">
+                Añadir al Carrito
+              </button>
+            </div>
+          </div>
+          {/*//* Product card */}
+          <div className=" carousel-product-card">
+            {/*//* Image and discount */}
+            <div className="carousel-product-image-container ">
+              <button className="carousel-bg-image2 deal-image">
+                <div className="discount">-22%</div>
+              </button>
+            </div>
+            <div className="carousel-description">
+              {/*//*name*/}
+              <div className="deal-description-name">
+                Drill Screwdriver Brandix ALX7054 200
+              </div>
+              {/*//*rating*/}
+              <div className="deal-description-rating">
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+              </div>
+              {/*//*price*/}
+              <div className="deal-description-price-container ">
+                $150.00{" "}
+                <span className="deal-description-price-old">$190.00</span>
+              </div>
+              {/*//*Add to cart*/}
+              <button className="deal-description-cart">
+                Añadir al Carrito
+              </button>
+            </div>
+          </div>
+          {/*//* Product card */}
+          <div className=" carousel-product-card">
+            {/*//* Image and discount */}
+            <div className="carousel-product-image-container ">
+              <button className="carousel-bg-image3 deal-image">
+                <div className="discount">-22%</div>
+              </button>
+            </div>
+            <div className="carousel-description">
+              {/*//*name*/}
+              <div className="deal-description-name">
+                Drill Screwdriver Brandix ALX7054 200
+              </div>
+              {/*//*rating*/}
+              <div className="deal-description-rating">
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+              </div>
+              {/*//*price*/}
+              <div className="deal-description-price-container ">
+                $150.00{" "}
+                <span className="deal-description-price-old">$190.00</span>
+              </div>
+              {/*//*Add to cart*/}
+              <button className="deal-description-cart">
+                Añadir al Carrito
+              </button>
+            </div>
+          </div>
+          {/*//* Product card */}
+          <div className=" carousel-product-card">
+            {/*//* Image and discount */}
+            <div className="carousel-product-image-container ">
+              <button className="carousel-bg-image4 deal-image">
+                <div className="discount">-22%</div>
+              </button>
+            </div>
+            <div className="carousel-description">
+              {/*//*name*/}
+              <div className="deal-description-name">
+                Drill Screwdriver Brandix ALX7054 200
+              </div>
+              {/*//*rating*/}
+              <div className="deal-description-rating">
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+              </div>
+              {/*//*price*/}
+              <div className="deal-description-price-container ">
+                $150.00{" "}
+                <span className="deal-description-price-old">$190.00</span>
+              </div>
+              {/*//*Add to cart*/}
+              <button className="deal-description-cart">
+                Añadir al Carrito
+              </button>
+            </div>
+          </div>
+          {/*//* Product card */}
+          <div className=" carousel-product-card">
+            {/*//* Image and discount */}
+            <div className="carousel-product-image-container ">
+              <button className="carousel-bg-image5 deal-image">
+                <div className="discount">-22%</div>
+              </button>
+            </div>
+            <div className="carousel-description">
+              {/*//*name*/}
+              <div className="deal-description-name">
+                Drill Screwdriver Brandix ALX7054 200
+              </div>
+              {/*//*rating*/}
+              <div className="deal-description-rating">
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+                <span class="star-icon full">☆</span>
+              </div>
+              {/*//*price*/}
+              <div className="deal-description-price-container ">
+                $150.00{" "}
+                <span className="deal-description-price-old">$190.00</span>
+              </div>
+              {/*//*Add to cart*/}
+              <button className="deal-description-cart">
+                Añadir al Carrito
+              </button>
+            </div>
+          </div>
+        </div>
+        {/*//*Pagination*/}
+        <div className="pagination-container">
+          {/*//*Prev page*/}
+          <button className="pagination-unavailable-button">
+            <div className="chevron pagination-unavailable"></div>
+          </button>
+          {/*//*Next page*/}
+          <button className="pagination-available-button">
+            <div className="chevron pagination-available"></div>
+          </button>
+        </div>
+      </section>
+
+      {/*//SECTION: FOOTER // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
+      <section className=" w-full bg-[#222222] h-[350px] mt-20"></section>
     </main>
   );
 };
