@@ -646,6 +646,9 @@ button {
   .deal-description-cart {
     margin-bottom: 0;
   }
+  .lista {
+    width: fit-content;
+  }
 }
 
 /* LG ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -736,4 +739,65 @@ footer p {
   margin-top: 2.5rem;
   font-size: 1.875rem /* 30px */;
   line-height: 2.25rem /* 36px */;
+}
+
+@keyframes slidy {
+  0% {
+    left: 0%;
+  }
+  30% {
+    left: 0%;
+  }
+  35% {
+    left: -100%;
+  }
+  65% {
+    left: -100%;
+  }
+  70% {
+    left: -200%;
+  }
+  100% {
+    left: -200%;
+  }
+}
+
+div#slider {
+  overflow: hidden;
+}
+div#slider figure img {
+  width: 20%;
+  float: left;
+}
+div#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite;
+}
+
+select {
+  cursor: pointer;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.lista:hover + .fondo {
+  background-color: rgba(0, 0, 0, 0.423);
+  display: flex;
+  width: 100lvw;
+  height: 100lvh;
+  position: fixed;
+  z-index: 60;
+}
+
+.fondo {
+  display: none;
+}
+
+.fixedCenterX {
+  left: 50%;
+  transform: translateX(-50%);
 }

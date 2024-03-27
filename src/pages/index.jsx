@@ -121,35 +121,63 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
         </div>
         {/*//* Bottom navbar */}
         <div class="navbar-bottom">
-          <ul class="lista pageSize">
-            <button>
-              <h1>DEPARTAMENTO</h1> <div class="chevron"></div>
-            </button>
-            <button>
-              <h1>CATEGORÍA</h1> <div class="chevron"></div>
-            </button>
-            <button>
-              <h1 class="texto">SUB-CATEGORÍA</h1>
-              <div class="chevron"></div>
-            </button>
-            <button>
-              <h1>MARCA</h1> <div class="chevron"></div>
-            </button>
-            <button>
-              <h1>MODELO</h1> <div class="chevron"></div>
-            </button>
+          <ul class="pageSize ">
+            <div class="lista">
+              <select>
+                <option>DEPARTAMENTO</option>
+                <option>OPCIÓN 1</option>
+                <option>OPCIÓN 2</option>
+                <option>OPCIÓN 3</option>
+                <option>OPCIÓN 4</option>
+                <option>OPCIÓN 5</option>
+              </select>
+              <select>
+                <option>CATEGORÍA</option>
+                <option>OPCIÓN 1</option>
+                <option>OPCIÓN 2</option>
+                <option>OPCIÓN 3</option>
+                <option>OPCIÓN 4</option>
+                <option>OPCIÓN 5</option>
+              </select>
+              <select>
+                <option>SUB-CATEGORÍA</option>
+                <option>OPCIÓN 1</option>
+                <option>OPCIÓN 2</option>
+                <option>OPCIÓN 3</option>
+                <option>OPCIÓN 4</option>
+                <option>OPCIÓN 5</option>
+              </select>
+              <select>
+                <option>MARCA</option>
+                <option>OPCIÓN 1</option>
+                <option>OPCIÓN 2</option>
+                <option>OPCIÓN 3</option>
+                <option>OPCIÓN 4</option>
+                <option>OPCIÓN 5</option>
+              </select>
+              <select>
+                <option>MODELO</option>
+                <option>OPCIÓN 1</option>
+                <option>OPCIÓN 2</option>
+                <option>OPCIÓN 3</option>
+                <option>OPCIÓN 4</option>
+                <option>OPCIÓN 5</option>
+              </select>
+            </div>
+            {/*//* Fondo negro al hacer hover */}
+            <div class="fondo fixedCenterX"></div>
           </ul>
         </div>
       </section>
       {/*//SECTION: HERO // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
       <section class=" hero-container pageSize ">
-        {/*//* Imagen grande */}
-        <div class=" hero-image1 bg-image1 "></div>
-        <div class="hero-image2-3-container">
-          {/*//* Imagen pequeña 1 */}
-          <div class="hero-image2-3 bg-image2"></div>
-          {/*//* Imagen pequeña 2 */}
-          <div class="hero-image2-3 bg-image3"></div>
+        {/*//* Hero Slider */}
+        <div id="slider">
+          <figure>
+            <img src="https://i.imgur.com/YOGm433.jpeg" alt="" loading="lazy" />
+            <img src="https://i.imgur.com/diZx6ei.jpeg" alt="" loading="lazy" />
+            <img src="https://i.imgur.com/NAapRQb.jpeg" alt="" loading="lazy" />
+          </figure>
         </div>
       </section>
       {/*//SECTION: CATEGORIES // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // */}
