@@ -51,7 +51,7 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
             {/*//* Actions buttons */}
             <div class="action-buttons-container">
               {/*//* User icon */}
-              <button class="action-buttons ">
+              <button class="action-buttons focus ">
                 <div class=" action-buttons-title ">
                   <h1 class=" gray">Ingresa</h1>
                   <strong>Tu Cuenta</strong>
@@ -72,8 +72,9 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
                   ></path>
                 </svg>
               </button>
+              <div class="focus-content3">Contenido</div>
               {/*//* Heart icon */}
-              <button class="action-buttons ">
+              <button class="action-buttons focus ">
                 <div class=" action-buttons-title ">
                   <h1 class=" gray">Favoritos</h1>
                   <strong>Mi Lista</strong>
@@ -90,8 +91,9 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
                   ></path>
                 </svg>
               </button>
+              <div class="focus-content2">Contenido</div>
               {/*//* Cart icon */}
-              <button class="action-button-cart">
+              <button class="action-button-cart focus">
                 <div class=" action-buttons-title ">
                   <h1 class=" gray">Tu Carrito</h1>
                   <strong>$0.00</strong>
@@ -116,6 +118,7 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
                   ></path>
                 </svg>
               </button>
+              <div class="focus-content">Contenido</div>
             </div>
           </div>
         </div>
