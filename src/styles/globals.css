@@ -649,6 +649,14 @@ button {
   .lista {
     width: fit-content;
   }
+  .lista:hover + .fondo {
+    background-color: rgba(0, 0, 0, 0.423);
+    display: flex;
+    width: 100lvw;
+    height: 100lvh;
+    position: fixed;
+    z-index: 60;
+  }
 }
 
 /* LG ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -783,14 +791,7 @@ select {
   cursor: pointer;
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-.lista:hover + .fondo {
-  background-color: rgba(0, 0, 0, 0.423);
-  display: flex;
-  width: 100lvw;
-  height: 100lvh;
-  position: fixed;
-  z-index: 60;
+  background-color: transparent;
 }
 
 .fondo {
