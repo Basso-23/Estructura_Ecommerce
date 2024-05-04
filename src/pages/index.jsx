@@ -177,9 +177,9 @@ const App = ({ cart, setCart, render, setRender, userState }) => {
         {/*//* Hero Slider */}
         <div id="slider">
           <figure>
-            <img src="https://i.imgur.com/YOGm433.jpeg" alt="" loading="lazy" />
-            <img src="https://i.imgur.com/diZx6ei.jpeg" alt="" loading="lazy" />
-            <img src="https://i.imgur.com/NAapRQb.jpeg" alt="" loading="lazy" />
+            <img src="https://i.imgur.com/02oIdq4.png" alt="" loading="lazy" />
+            <img src="https://i.imgur.com/J2rxtLd.png" alt="" loading="lazy" />
+            <img src="https://i.imgur.com/GpYBvbd.png" alt="" loading="lazy" />
           </figure>
         </div>
       </section>
